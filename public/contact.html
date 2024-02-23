@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="sahan sithira" />
+    <meta name="description" content="my first website project" />
+    <link rel="stylesheet" href="../main.css" />
+    <link rel="icon" href="../assets/images/favicon.png" type="images/x-icon" />
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <header>
+      <h1>Contact Us</h1>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../index.html#aboutLTS">About LTS</a></li>
+          <li><a href="../index.html#menu">Our Menu</a></li>
+          <li><a href="storehourrs.html">Store Hours</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <figure>
+        <img
+          src="../assets/images/restaurant-449952_1920.jpg"
+          alt="Little taco shop"
+          height="300px"
+          title="Little Taco Shop"
+        />
+        <figcaption>Our Shop</figcaption>
+      </figure>
+      <h2>Our contact Form</h2>
+      <form action="https:/httpbin.org/get" method="get">
+        <fieldset>
+          <legend>Send Us A Message</legend>
+          <div>
+            <label for="name">Name:</label>
+            <input
+              type="text"
+              id="name"
+              required
+              autocomplete="on"
+              autofocus
+              placeholder="Your name"
+            />
+          </div>
+          <div>
+            <label for="Email">Email:</label>
+            <input
+              type="text"
+              id="Email"
+              required
+              autocomplete="on"
+              placeholder="Your Email"
+            />
+          </div>
+          <div>
+            <label for="message">Message:</label>
+            <div>
+              <textarea
+                id="message"
+                required
+                placeholder="Your message"
+                rows="5"
+                cols="40"
+                draggable="false"
+              ></textarea>
+            </div>
+          </div>
+        </fieldset>
+        <div>
+          <button type="submit">Send</button>
+          <button type="reset">Restet</button>
+        </div>
+      </form>
+
+      <h2>Our Location</h2>
+      <address>
+        <br />555 Taco Temptation Lane,Suite <br />Kansas city,MO 5555-5555
+
+        <br />phone : <a href="tel:+9455555555">555555555</a>
+      </address>
+      <p></p>
+      <a href="#">Back to Top</a>
+      <hr />
+    </main>
+    <footer>
+      <p>&copy; 2022 The Little Taco Shop</p>
+    </footer>
+  </body>
+</html>
